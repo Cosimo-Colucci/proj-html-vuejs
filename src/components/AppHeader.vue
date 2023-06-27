@@ -1,20 +1,24 @@
 <script>
-export default{
-    name: "AppHeader",
+    import NavBar from './ComponentSons/NavBar.vue';
 
-    data() {
-        return {
-          
-        };
-    },
+    export default{
+        name: "AppHeader",
 
-    components: {
+        data() {
+            return {
+            
+            };
+        },
+
+        components: {
+            NavBar,
+        }
     }
-}
 </script>
 
 <template>
-    <div>
+    <NavBar/>
+    <div class="bg">
         <h1>
             Right People. Right Investments.
         </h1>
@@ -22,7 +26,7 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-    div{
+    div.bg{
         display: flex;
         width: 100%;
         border: 2px solid black;
