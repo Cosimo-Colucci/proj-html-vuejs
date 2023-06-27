@@ -1,5 +1,6 @@
 <script>
     import NavBar from './ComponentSons/NavBar.vue';
+    import BrandSlider from './ComponentSons/BrandSlider.vue';
 
     export default{
         name: "AppHeader",
@@ -12,6 +13,7 @@
 
         components: {
             NavBar,
+            BrandSlider,
         }
     }
 </script>
@@ -23,6 +25,7 @@
             Right People. Right Investments.
         </h1>
     </div>
+    <BrandSlider/>
 </template>
 
 <style lang="scss" scoped>
