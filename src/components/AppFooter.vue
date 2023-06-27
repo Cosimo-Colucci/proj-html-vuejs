@@ -1,28 +1,31 @@
 <script>
-export default{
-    name: "AppFooter",
+    import LowerFooter from './ComponentSons/LowerFooter.vue';
+    import UpperFooter from './ComponentSons/UpperFooter.vue';
 
-    data() {
-        return {
-          
-        };
-    },
+    export default{
+        name: "AppFooter",
 
-    components: {
+        data() {
+            return {
+            
+            };
+        },
+
+        components: {
+            LowerFooter,
+            UpperFooter,
+        }
     }
-}
 </script>
 
 <template>
-    <div>
-        <h3>foot</h3>
-    </div>
+        <UpperFooter/>
+        <LowerFooter/>
 </template>
 
 <style lang="scss" scoped>
     div{
         width: 100%;
-        height: 300px;
         border: 2px solid black;
     }
 </style>
