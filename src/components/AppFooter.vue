@@ -24,8 +24,5 @@
 </template>
 
 <style lang="scss" scoped>
-    div{
-        width: 100%;
-        border: 2px solid black;
-    }
+    
 </style>

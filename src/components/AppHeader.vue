@@ -31,8 +31,6 @@
 <style lang="scss" scoped>
     div.bg{
         display: flex;
-        width: 100%;
-        border: 2px solid black;
 
         background: url(../../public/img/home_finance_slider_bg.jpg);
 
