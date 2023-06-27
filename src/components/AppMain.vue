@@ -1,22 +1,23 @@
 <script>
-export default{
-    name: "AppMain",
+    import ClientFeedback from './ComponentSons/ClientFeedback.vue';
 
-    data() {
-        return {
-          
-        };
-    },
+    export default{
+        name: "AppMain",
 
-    components: {
-    }
+        data() {
+            return {
+            
+            };
+        },
+
+        components: {
+            ClientFeedback,
+        }
 }
 </script>
 
 <template>
-    <div>
-        <h2>body</h2>
-    </div>
+    <ClientFeedback/>
 </template>
 
 <style lang="scss" scoped>
