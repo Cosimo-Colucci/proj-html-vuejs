@@ -1,7 +1,7 @@
 <template>
     <div class="lower_footer">
         <div class="copyright_info">
-            copyright_info
+            <p>©Copyright 2012 - 2020 | BlackCrow Theme by Boolean | All Rights Rederved | Powered by MyPc</p>
         </div>
 
         <div class="social_info">
