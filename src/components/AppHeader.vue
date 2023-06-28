@@ -33,6 +33,7 @@
         display: flex;
 
         background: url(../../public/img/home_finance_slider_bg.jpg);
+        background-repeat: no-repeat;
 
         h1{
             margin: auto;
