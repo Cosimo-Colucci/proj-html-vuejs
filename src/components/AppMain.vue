@@ -1,5 +1,6 @@
 <script>
     import ClientFeedback from './ComponentSons/ClientFeedback.vue';
+    import GraphMain from './ComponentSons/GraphMain.vue';
 
     export default{
         name: "AppMain",
@@ -12,11 +13,13 @@
 
         components: {
             ClientFeedback,
+            GraphMain,
         }
 }
 </script>
 
 <template>
+    <GraphMain/>
     <ClientFeedback/>
 </template>
 
