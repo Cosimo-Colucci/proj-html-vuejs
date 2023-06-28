@@ -2,6 +2,7 @@
     import ClientFeedback from './ComponentSons/ClientFeedback.vue';
     import GraphMain from './ComponentSons/GraphMain.vue';
     import ServiseComponent from './ComponentSons/ServiseComponent.vue';
+    import Communities from './ComponentSons/Communities.vue';
 
     export default{
         name: "AppMain",
@@ -16,6 +17,7 @@
             ClientFeedback,
             GraphMain,
             ServiseComponent,
+            Communities,
         }
 }
 </script>
@@ -23,6 +25,7 @@
 <template>
     <GraphMain/>
     <ServiseComponent/>
+    <Communities/>
     <ClientFeedback/>
 </template>
 
