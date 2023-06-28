@@ -85,6 +85,7 @@
 
 <style lang="scss" scoped>
     div.body{
+        padding: 8rem;
         background-color: #ebebeb;
     }
 
